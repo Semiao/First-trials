@@ -1,7 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
     text-align: center;
     background-color:#f0e8c5;
   }
+
+  #banner h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 38px;
+    text-align: center
+  } 
+
+  h1 {
+    letter-spacing: 1.5px;
+  }
+
+  #banner p {
+    color: whitesmoke;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+  .menu-area li a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 75px;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .menu-area li{
+    list-style: none;
+    display: inline-block;
+  }
+
+  .custom-padding{
+    padding-top: 25px;
+  }
+
+  nav{
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    text-align: center;
+    z-index: 1;
+    background: #333;
+    margin: 0 auto;
+    width: calc(100% - 60px);
+    }
+
+.menu-area li a:hover{
+  background: tomato;
+  color: #fff;
+}
+
+nav:before{
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 100%;
+  border-top: 10px solid #333;
+  border-right: 10px solid #333;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+nav:after{
+  position: absolute;
+  content: '';
+  top: 100%;
+  border-top: 10px solid #333;
+  border-left: 10px solid #333;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  right: 0;
+}
 
   div {
     margin-top: 15px;
@@ -17,3 +104,14 @@ body {
     margin-left: 25px;
     background-color: white;
   }
+
+  #banner{
+    text-align: center;
+    background-image: url(https://www.pilotcove.com/wp-content/uploads/2016/11/hiking-banner-e1480518708785.jpg?x68475);
+    background-size: cover;
+    padding: 130px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+  }
+
+
