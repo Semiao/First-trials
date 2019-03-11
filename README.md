@@ -1,2 +1,2 @@
-# First-trials
+# vscode-git
 Learn to Code
