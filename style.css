@@ -12,10 +12,10 @@ body {
   }
 
   #banner h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Montez; 
     color: white;
     font-weight: normal;
-    font-size: 38px;
+    font-size: 55px;
     text-align: center
   } 
 
@@ -23,12 +23,21 @@ body {
     letter-spacing: 1.5px;
   }
 
+  h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+  }
+
+  h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+  }
+
   #banner p {
     color: whitesmoke;
     text-align: center;
-    opacity: 0.8;
-    font-size: 25px;
+    opacity: 0.85;
+    font-size: 38px;
     font-weight: lighter;
+    font-family: Montez;
   }
 
   .menu-area li a{
@@ -99,7 +108,7 @@ nav:after{
     justify-content: center;
   }
   
-  .section-style {
+  .output1 {
     margin-right: 25px;
     margin-left: 25px;
     background-color: white;
