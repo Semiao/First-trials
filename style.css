@@ -28,7 +28,8 @@ body {
   }
 
   h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
   }
 
   #banner p {
@@ -103,15 +104,26 @@ nav:after{
     margin-top: 15px;
   }
   
-  .image-section {
-    display: flex;
-    justify-content: center;
-  }
-  
   .output1 {
     margin-right: 25px;
     margin-left: 25px;
-    background-color: white;
+    margin-bottom: 50px;
+  }
+
+  .output2 {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+
+ .name1 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .name2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
   }
 
   #banner{
@@ -123,4 +135,13 @@ nav:after{
     text-shadow: 1px 1px 5px black;
   }
 
+.meteo_data {
+  -webkit-column-count: 5;
+  margin-left: 40px;
+  text-align: start;
+}
+
+.center {
+  text-align: center;
+}
 

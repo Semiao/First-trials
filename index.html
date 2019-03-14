@@ -6,7 +6,7 @@
         <title>My trekking webpage</title>
         <script src="jquery-3.3.1.js"></script> 
         <script async src="index.js"></script> 
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill|Montez" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     </head>
@@ -15,7 +15,7 @@
 
       <div id="banner">
           <h1>Hello, Hiker!</h1>
-          <p>Here you can find the info needed for your next hiking adventure</p>
+          <p>Here you can find nice info for your hiking adventures</p>
           <h4 id='date'></h4>
       </div>
 
@@ -23,23 +23,46 @@
         <nav> 
           <ul class="menu-area">
               <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Trails</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#">My photos</a></li>
+              <li><a href="#">Nice hiker photos</a></li>
+              <li><a href="#">Meteo</a></li>
           </ul>
         </nav>
       </div>
 
       <div class="output1">
         <h2 class="name1"></h2>
-        <h3 class="description1"></h3>
         <div class="image1"><img src=""/></div>
-        </div>
+      </div>
       
       <div class="output2">
         <h2 class="name2"></h2>
         <div class="image2"><img src=""/></div>
       </div>
+
+      <div class="jumbotron" style="margin-bottom: 0px; color:white; background-color: #4aa1f3;">
+        <h2 class="text-center" style="font-size:40px; font-weight: 600;">Get Current Weather</h2>
+      </div>
+
+      <div class="container">
+        <div class="row" style="margin-bottom: 20px;">
+          <h2 class="text-center text-primary">Enter City Name</h2>
+          <span id='error'> </span>
+        </div>
+
+        <div class="row form-group form-inline" id="romDiv">
+          <input type="text" name="city" id="city" class="form-control" placeholder="City Name">
+          <input type="text" name="country" id="country" class="form-control" placeholder="Country (optional)">
+          <button id="submitWeather" class="btn btn-primary">Search City</button>
+        </div>
+
+        <div id="show">
+          <div class="center"></div>
+          <div class="meteo_data"></div>
+        </div>
+
+      </div>
+
 
     </body>
 </html>
