@@ -136,12 +136,17 @@ nav:after{
   }
 
 .meteo_data {
+  font-size: 2px;
+  font-size-adjust: initial;
+  column-count: auto;
   -webkit-column-count: 5;
-  margin-left: 40px;
-  text-align: start;
+  margin-left: 0px;
+  margin-bottom: 450px;
+  text-align: start
 }
 
 .center {
   text-align: center;
+  margin-bottom: 30px;
 }
 

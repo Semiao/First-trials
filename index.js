@@ -45,12 +45,12 @@ $(document).ready(function(){
 
                 let widget = show(data);
                 $('#show').html(widget);
-                //$('#city').val('');
+                $('#city').val('');
 
             });
 
         } else {
-            $('error').html('Field cannot be empty');
+            $('error').html("<div class='alert alert-danger'><a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>Field cannot be empty</div>");
         }
 
     });
@@ -71,8 +71,8 @@ $(document).ready(function(){
                 dia1 = '<h3><strong>Date</strong>: ' + data.data[i].valid_date + '</h3>' +
                 '<img src=https://www.weatherbit.io/static/img/icons/' + data.data[i].weather.icon + '.png>' +
                 '<h4><strong>Weather</strong>: ' + data.data[i].weather.description + '</h4>' +
-                '<h4><strong>Average Temperature</strong>: ' + data.data[i].temp + ' ºC</h4>' +
-                '<h4><strong>Max Temeprature</strong>: ' + data.data[i].max_temp + ' ºC</h4>' +
+                '<h4><strong>Avg Temperature</strong>: ' + data.data[i].temp + ' ºC</h4>' +
+                '<h4><strong>Max Temperature</strong>: ' + data.data[i].max_temp + ' ºC</h4>' +
                 '<h4><strong>Min Temperature</strong>: ' + data.data[i].min_temp + ' ºC</h4>' +
                 '<h4><strong>Max Temp Feeled</strong>: ' + data.data[i].app_max_temp + ' ºC</h4>' +
                 '<h4><strong>Min Temp Feeled</strong>: ' + data.data[i].app_min_temp + ' ºC</h4>' +
@@ -86,8 +86,8 @@ $(document).ready(function(){
                 dia2 = '<h3><strong>Date</strong>: ' + data.data[i].valid_date + '</h3>' +
                 '<img src=https://www.weatherbit.io/static/img/icons/' + data.data[i].weather.icon + '.png>' +
                 '<h4><strong>Weather</strong>: ' + data.data[i].weather.description + '</h4>' +
-                '<h4><strong>Average Temperature</strong>: ' + data.data[i].temp + ' ºC</h4>' +
-                '<h4><strong>Max Temeprature</strong>: ' + data.data[i].max_temp + ' ºC</h4>' +
+                '<h4><strong>Avg Temperature</strong>: ' + data.data[i].temp + ' ºC</h4>' +
+                '<h4><strong>Max Temperature</strong>: ' + data.data[i].max_temp + ' ºC</h4>' +
                 '<h4><strong>Min Temperature</strong>: ' + data.data[i].min_temp + ' ºC</h4>' +
                 '<h4><strong>Max Temp Feeled</strong>: ' + data.data[i].app_max_temp + ' ºC</h4>' +
                 '<h4><strong>Min Temp Feeled</strong>: ' + data.data[i].app_min_temp + ' ºC</h4>' +
@@ -101,8 +101,8 @@ $(document).ready(function(){
                 dia3 = '<h3><strong>Date</strong>: ' + data.data[i].valid_date + '</h3>' +
                 '<img src=https://www.weatherbit.io/static/img/icons/' + data.data[i].weather.icon + '.png>' +
                 '<h4><strong>Weather</strong>: ' + data.data[i].weather.description + '</h4>' +
-                '<h4><strong>Average Temperature</strong>: ' + data.data[i].temp + ' ºC</h4>' +
-                '<h4><strong>Max Temeprature</strong>: ' + data.data[i].max_temp + ' ºC</h4>' +
+                '<h4><strong>Avg Temperature</strong>: ' + data.data[i].temp + ' ºC</h4>' +
+                '<h4><strong>Max Temperature</strong>: ' + data.data[i].max_temp + ' ºC</h4>' +
                 '<h4><strong>Min Temperature</strong>: ' + data.data[i].min_temp + ' ºC</h4>' +
                 '<h4><strong>Max Temp Feeled</strong>: ' + data.data[i].app_max_temp + ' ºC</h4>' +
                 '<h4><strong>Min Temp Feeled</strong>: ' + data.data[i].app_min_temp + ' ºC</h4>' +
@@ -116,8 +116,8 @@ $(document).ready(function(){
                 dia4 = '<h3><strong>Date</strong>: ' + data.data[i].valid_date + '</h3>' +
                 '<img src=https://www.weatherbit.io/static/img/icons/' + data.data[i].weather.icon + '.png>' +
                 '<h4><strong>Weather</strong>: ' + data.data[i].weather.description + '</h4>' +
-                '<h4><strong>Average Temperature</strong>: ' + data.data[i].temp + ' ºC</h4>' +
-                '<h4><strong>Max Temeprature</strong>: ' + data.data[i].max_temp + ' ºC</h4>' +
+                '<h4><strong>Avg Temperature</strong>: ' + data.data[i].temp + ' ºC</h4>' +
+                '<h4><strong>Max Temperature</strong>: ' + data.data[i].max_temp + ' ºC</h4>' +
                 '<h4><strong>Min Temperature</strong>: ' + data.data[i].min_temp + ' ºC</h4>' +
                 '<h4><strong>Max Temp Feeled</strong>: ' + data.data[i].app_max_temp + ' ºC</h4>' +
                 '<h4><strong>Min Temp Feeled</strong>: ' + data.data[i].app_min_temp + ' ºC</h4>' +
@@ -131,8 +131,8 @@ $(document).ready(function(){
                 dia5 = '<h3><strong>Date</strong>: ' + data.data[i].valid_date + '</h3>' +
                 '<img src=https://www.weatherbit.io/static/img/icons/' + data.data[i].weather.icon + '.png>' +
                 '<h4><strong>Weather</strong>: ' + data.data[i].weather.description + '</h4>' +
-                '<h4><strong>Average Temperature</strong>: ' + data.data[i].temp + ' ºC</h4>' +
-                '<h4><strong>Max Temeprature</strong>: ' + data.data[i].max_temp + ' ºC</h4>' +
+                '<h4><strong>Avg Temperature</strong>: ' + data.data[i].temp + ' ºC</h4>' +
+                '<h4><strong>Max Temperature</strong>: ' + data.data[i].max_temp + ' ºC</h4>' +
                 '<h4><strong>Min Temperature</strong>: ' + data.data[i].min_temp + ' ºC</h4>' +
                 '<h4><strong>Max Temp Feeled</strong>: ' + data.data[i].app_max_temp + ' ºC</h4>' +
                 '<h4><strong>Min Temp Feeled</strong>: ' + data.data[i].app_min_temp + ' ºC</h4>' +
@@ -146,7 +146,8 @@ $(document).ready(function(){
         }
 
         return '<h2 class="center"> Current Weather for ' + data.city_name + ', ' + data.country_code + '</h2><div class="meteo_data">' 
-                + dia1 + dia2 + dia3 + dia4 + dia5 + '</div>';
+        + dia1 + dia2 + dia3 + dia4 + dia5 + '</div>';
 
     }
+
 });

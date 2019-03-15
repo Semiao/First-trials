@@ -8,37 +8,43 @@
         <script async src="index.js"></script> 
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill|Montez" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     </head>
 
     <body>
 
-      <div id="banner">
-          <h1>Hello, Hiker!</h1>
-          <p>Here you can find nice info for your hiking adventures</p>
-          <h4 id='date'></h4>
-      </div>
+      <section id="section1">
+        <div id="banner">
+            <h1>Hello, Hiker!</h1>
+            <p>Here you can find nice info for your hiking adventures</p>
+        </div>
+      </section>
 
       <div class="custom-padding">
         <nav> 
           <ul class="menu-area">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">My photos</a></li>
-              <li><a href="#">Nice hiker photos</a></li>
-              <li><a href="#">Meteo</a></li>
+              <li><a href="#section1">Home</a></li>
+              <li><a href="#section2">Nice hiker photos</a></li>
+              <li><a href="#section3">My photos</a></li>
+              <li><a href="#section4">Meteo</a></li>
           </ul>
         </nav>
       </div>
 
-      <div class="output1">
-        <h2 class="name1"></h2>
-        <div class="image1"><img src=""/></div>
-      </div>
+      <section id="section2">
+        <div class="output1">
+          <h2 class="name1"></h2>
+          <div class="image1"><img src=""/></div>
+        </div>
+      </section>
       
-      <div class="output2">
-        <h2 class="name2"></h2>
-        <div class="image2"><img src=""/></div>
-      </div>
+      <section id="section3">
+        <div class="output2">
+          <h2 class="name2"></h2>
+          <div class="image2"><img src=""/></div>
+        </div>
+      </section>
 
       <div class="jumbotron" style="margin-bottom: 0px; color:white; background-color: #4aa1f3;">
         <h2 class="text-center" style="font-size:40px; font-weight: 600;">Get Current Weather</h2>
@@ -56,10 +62,12 @@
           <button id="submitWeather" class="btn btn-primary">Search City</button>
         </div>
 
-        <div id="show">
-          <div class="center"></div>
-          <div class="meteo_data"></div>
-        </div>
+        <section id="section4">
+          <div id="show">
+            <div class="center"></div>
+            <div class="meteo_data"></div>
+          </div>
+        </section>
 
       </div>
 
