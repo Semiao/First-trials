@@ -50,7 +50,7 @@ $(document).ready(function(){
             });
 
         } else {
-            $('error').html("<div class='alert alert-danger'><a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>Field cannot be empty</div>");
+            $('#error').html('<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>Field cannot be empty</div>');
         }
 
     });
